@@ -26,3 +26,29 @@ export async function addClient(datos) {
         console.log(error)
     }
 }
+
+export async function updateClient(id, datos) {
+    try {
+        const resp = await fetch(`${import.meta.env.VITE_API_URL}/${id}`,{
+            method: 'PUT',
+            body: JSON.stringify(datos),
+            headers: {
+                "Content-Type" : 'application/json'
+            }
+        })
+        await resp.json()
+    } catch( error ) {
+        console.log(error)
+    } 
+}
+
+export async function deleteClient( id ) {
+    try {
+        const resp = await fetch(`${import.meta.env.VITE_API_URL}/${id}`, {
+            method: 'DELETE'
+        })
+        await resp.json()
+    } catch( error ) {
+        console.log( error )
+    }
+}
