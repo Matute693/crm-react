@@ -1,0 +1,39 @@
+{
+    "clientes" : [
+        {
+            "id": 1,
+            "nombre": "Juan",
+            "telefono": 32467334,
+            "email": "juan@juan.com",
+            "empresa": "Codigo Con Juan"
+        },
+        {
+            "id": 2,
+            "nombre": "Karen",
+            "telefono": 38198313,
+            "email": "karen@karen.com",
+            "empresa": "Codigo Con Mati"
+        },
+        {
+            "id": 3,
+            "nombre": "Josue",
+            "telefono": 31983913,
+            "email": "josue@josue.com",
+            "empresa": "Codigo Con Mati"
+        },
+        {
+            "id": 4,
+            "nombre": "Miguel",
+            "telefono": 319381983,
+            "email": "miguel@miguel.com",
+            "empresa": "Codigo Con Mati"
+        },
+        {
+            "id": 5,
+            "nombre": "Pedro",
+            "telefono": 1398198938,
+            "email": "pedro@pedro.com",
+            "empresa": "Codigo Con JuMatin"
+        }
+    ]
+}

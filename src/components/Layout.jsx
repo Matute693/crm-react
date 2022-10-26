@@ -2,7 +2,7 @@ import { Outlet, Link, NavLink, useLocation } from 'react-router-dom';
 
 const Layout = () => {
   const location = useLocation();
-  console.log(location)
+  // console.log(location) location para ver los parametros de la ruta y poder dar estilos y mejorar la experiencia del usuario
 
   return (
     <div className="md:flex md:min-h-screen">
