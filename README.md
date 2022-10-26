@@ -1,10 +1,12 @@
+# CRM - React.js
 
 
 
+Descripción
 
-description
+Proyecto creado con React version 18, utilicé el framework Vite y react router dom para el sistema de rutas, integración con REST API a traves de JSON-SERVER para poder mostrar los resultados en pantalla a traves de solicitudes HTTP con fetch en javascript. Realize el control de Error Boundaries provenientes de React. Utilize expresiones regulares para validar email. Creacion de CRUD para poder insertar, actualizar, eliminar y agregar nuevos clientes a nuestra REST API local.
 
-Proyecto creado con React version 18, utilicé react router dom para el sistema de rutas, integración con REST API a traves de JSON-SERVER para poder mostrar los resultados en pantalla a traves de solicitudes HTTP. Realize el control de Error Boundaries provenientes de React. Utilize expresiones regulares para validar email  
+- Este proyecto es version Desktop no utilize media queries ni adaptaciones CSS para dispositivos mobiles
 
 - loader :
 - action : 
