@@ -4,7 +4,7 @@
 
 description
 
-Proyecto creado con React version 18, utilicé react router dom para el sistema de rutas, integración con REST API a traves de JSON-SERVER para poder mostrar los resultados en pantalla a traves de solicitudes HTTP. Realize el control de Error Boundaries 
+Proyecto creado con React version 18, utilicé react router dom para el sistema de rutas, integración con REST API a traves de JSON-SERVER para poder mostrar los resultados en pantalla a traves de solicitudes HTTP. Realize el control de Error Boundaries provenientes de React. Utilize expresiones regulares para validar email  
 
 - loader :
 - action : 
@@ -17,3 +17,8 @@ hooks utiizados
 - error boundary -  useRouteError
 - location - use
 - navigate - useNavigate
+
+otros metodos usados de React
+- navigate (redireccion de pagina)
+- Link ( utilize para realizar la navegacion dentro del aside HTML).
+- redirect ( redireccion cuando utilizo action o loader)
