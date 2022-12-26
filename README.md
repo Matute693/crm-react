@@ -3,11 +3,12 @@
 Instalar los modulos de node
 - `npm i`
 
-Este script corre la aplicacion del lado del cliente (frontend) y levanta una instancia de nuestra API REST
+- This script runs the application on the client side (frontend) and raises an instance of our REST API.
+- Use version of node 14
 - `npm run start:json`
 
 
-Descripción
+Description
 
 Proyecto creado con React version 18, utilicé el framework Vite y react router dom para el sistema de rutas, integración con API REST a traves de JSON-SERVER para poder mostrar los resultados en pantalla a traves de solicitudes HTTP con fetch en javascript. Realize el control de Error Boundaries provenientes de React. Utilize expresiones regulares para validar email. Creacion de CRUD para poder insertar, actualizar, eliminar y agregar nuevos clientes a nuestra API REST local.
 
